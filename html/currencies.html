@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="/css/currencies.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/picture/apple-logo.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <title>Currencies</title>
+  </head>
+  <body>
+    <nav id="navigator">
+      <div id="imageContainer">
+        <img id="logo" src="/assets/picture/apple-logo.png" alt="Apple logo" />
+      </div>
+      <div class="listJS listContainer">
+        <ul>
+          <li class="list">
+            <a href="/html/picturefinder.html">Picture finder</a>
+          </li>
+          <li class="list"><a href="#">Currencies</a></li>
+          <li class="list"><a href="/html/cities.html">Cities</a></li>
+          <li class="list"><a href="/html/contact.html">Contact</a></li>
+          <li class="list listLogOut" id="logout">Logout</li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <form id="form">
+        <label for="coins" id="convert">Convert currency: </label>
+        <select name="coins" id="coin">
+          <option value="EUR">EUR</option>
+          <option value="USD">USD</option>
+          <option value="SEK">SEK</option>
+          <option value="CHF">CHF</option>
+          <option value="NZD">NZD</option>
+          <option value="ZAR">ZAR</option>
+          <option value="RON">RON</option>
+          <option value="GBP">GBP</option>
+          <input type="date" name="date" id="date" />
+          <input type="number" name="number" id="number" />
+          <input type="submit" value="Submit" id="submit" />
+        </select>
+      </form>
+      <div id="converted"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2022</p>
+    </footer>
+    <script src="/js/currencies.js"></script>
+    <script src="/js/logout.js"></script>
+  </body>
+</html>

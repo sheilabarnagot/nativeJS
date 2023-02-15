@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/picture/apple-logo.png"
+      type="image/x-icon"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav id="navigator">
+      <div id="imageContainer">
+        <img id="logo" src="/assets/picture/apple-logo.png" alt="Apple logo" />
+      </div>
+      <div class="listJS listContainer">
+        <ul>
+          <li class="list">
+            <a href="/html/picturefinder.html">Picture finder</a>
+          </li>
+          <li class="list"><a href="/html/currencies.html">Currencies</a></li>
+          <li class="list"><a href="/html/cities.html">Cities</a></li>
+          <li class="list"><a href="#">Contact</a></li>
+          <li class="list listLogOut" id="logout">Logout</li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div id="image-form-container">
+        <div class="secondContainer" id="image-container">
+          <img
+            id="imgContactEnvelope"
+            src="/assets/picture/picture-email.png"
+            alt="Envelope picture"
+          />
+        </div>
+
+        <form class="secondContainer" id="form">
+          <h1 class="formTitle">Get in touch</h1>
+          <input class="insideForm" id="name" type="text" placeholder="Name" />
+          <input
+            class="insideForm"
+            id="email"
+            type="email"
+            placeholder="Email"
+          />
+          <input
+            class="insideForm"
+            id="phone"
+            type="text"
+            placeholder="Phone number"
+          />
+          <textarea
+            id="formMessage"
+            class="insideForm"
+            type="text"
+            placeholder="Message"
+          ></textarea>
+          <input id="submitBtn" type="submit" value="Submit →" />
+          <p id="thanks"></p>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2022</p>
+    </footer>
+    <script src="/js/contact.js"></script>
+    <script src="/js/logout.js"></script>
+  </body>
+</html>

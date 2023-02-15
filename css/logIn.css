@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #fab53d8f;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+#logInContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  background-color: #fff;
+  margin-top: 250px;
+  padding: 75px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px #7f2f5c53;
+}
+h1 {
+  font-size: 50px;
+  margin: 10px 0 80px;
+}
+#userName {
+  background-color: #e0e0e0;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+#userName:focus {
+  color: #fff;
+  background-color: #fab43d;
+}
+
+#password {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+#password:focus {
+  color: #fff;
+  background-color: #fab43d;
+}
+#inputButton {
+  margin-top: 20px;
+  padding: 3px 52px;
+}
+
+#inputButton:active {
+  color: #fff;
+  background-color: #fab43d;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.alerts {
+  color: #ff0000;
+}

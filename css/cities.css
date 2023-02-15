@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fab53d8f;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#getCities {
+  margin: 30px;
+  padding: 10px;
+  font-size: 2rem;
+  border: 3px solid #000000;
+  border-radius: 5px;
+}
+#allCities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px #7f2f5c53;
+  border: 3px solid black;
+}

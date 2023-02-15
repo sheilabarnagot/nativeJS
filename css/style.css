@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*så att den inte upptar mer än bredden*/
+  text-decoration: none;
+  list-style: none; /* ta bort poängen vi får med ul*/
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#logo {
+  width: 50px;
+  margin-left: 15px;
+}
+
+#navigator {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff80;
+  box-shadow: 0px 1px 5px black;
+}
+#imageContainer {
+  width: 30%;
+}
+
+.listContainer {
+  width: 70%;
+}
+
+.listContainer > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 100%;
+  margin-right: 30px;
+}
+
+.list {
+  margin-right: 30px;
+  padding: 3px;
+}
+
+.list > a,
+#logout {
+  font-size: 1.3rem;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.list > a:hover,
+#logout:hover {
+  color: #a52a2a;
+  background-color: #fcd592;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: overline;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #000;
+}
+
+footer > p {
+  text-align: center;
+  color: #fab43d;
+  line-height: 10vh;
+}
+
+/*Det !important efter ett värde som för en stil är den högsta rangen av specificiteten*/

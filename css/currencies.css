@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fab53d8f;
+}
+#form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin: 10%;
+  padding: 75px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px #7f2f5c53;
+  border: 3px solid black;
+}
+
+#coin {
+  margin: 1rem;
+  padding: 3px 15px;
+}
+#convert {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+#converted {
+  display: none;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  color: #000;
+  border-radius: 20px;
+  border: 3px solid black;
+  box-shadow: 20px 20px 20px #7f2f5c53;
+}
+#number {
+  margin: 20px;
+}
+#submit {
+  padding: 3px 15px;
+}
+
+#myChart {
+  margin: 15px;
+  padding: 10px;
+  background-color: #050404;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+#divChart {
+  width: 75%;
+}
